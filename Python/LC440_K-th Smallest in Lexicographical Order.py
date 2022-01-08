@@ -1,4 +1,5 @@
 class Solution:
+
     def findKthNumber(self, n, k) -> int:
         cur = 1
         prefix = 1
@@ -14,7 +15,6 @@ class Solution:
         return prefix
 
     def get_count(self, i, n):
-
         if i <= n:
             cnt = 1
         else:
