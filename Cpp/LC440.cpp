@@ -9,7 +9,6 @@ public:
             cur *= 10;
             next *= 10;
         }
-
     }
 
     int findKthNumber(int n, int k) {
