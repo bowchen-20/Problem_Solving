@@ -12,12 +12,10 @@ public:
 
     }
 
-    int findKthNumber(int n, int k)
-    {
+    int findKthNumber(int n, int k) {
         long p = 1;
         long prefix = 1;
-        while (p < k)
-        {
+        while (p < k) {
             long count = getCount(prefix, n);
             if (p + count > k) {
                 prefix *= 10;
