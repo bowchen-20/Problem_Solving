@@ -25,6 +25,7 @@ public:
                 p += count;
             }
         }
+        
         return static_cast<int>(prefix);
     }
 };
